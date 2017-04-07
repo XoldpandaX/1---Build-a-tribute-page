@@ -1,0 +1,116 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	margin-top: 40px;
+	color: #000;
+}
+p {
+	margin: 7px;
+}
+h1 { 
+	font-size: 3em; 
+	margin-bottom: 15px;
+}
+.wrapper {
+	background-color: #EEEEEE;
+	border-radius: 4px;
+	padding-bottom: 25px;
+}
+/*======HEADER======*/
+.main_title { 
+	text-align: center;
+	color: #333333;
+
+}
+.main_title h2 { 
+	font-size: 2em; 
+	margin: 0;
+	margin-bottom: 15px;
+	padding: 0;
+}
+.head_img {
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+	border: 2px solid black;
+	background-color: black;
+}
+.head_img img {
+	max-width: 100%;
+	height: auto;
+}
+.head_img p {
+	color: white;
+}
+/*======MAIN_CONTENT======*/
+section.main_content { 
+	margin-bottom: 15px;
+}
+section.main_content h3 { 
+	padding-top: 30px;
+	color: #333333;
+	text-align: center;
+}
+.list { 
+	margin-left: 18%; 
+	margin-right: 18%;
+}
+.list li {
+	font-size: 14px;
+	font-family: "RobotoLight";
+	padding-top: 10px;
+}
+.list li:first-child { padding-top: 0; } 
+.list b {
+	font-size: 16px;
+	font-family: "RobotoRegular";
+}
+
+section.main_content blockquote p {
+	text-align: center;
+}
+section.main_content .from {
+	font-style: italic;
+	text-align: center;
+	color: grey;
+	font-size: 12px;
+}
+.wiki_link { 
+	font-family: sans-serif;
+	font-size: 1.3em;
+	margin-left: 18%;
+	margin-right: 18%;
+}
+.wiki_link a {
+	text-decoration: underline;
+}
+/*footer hr { padding-top: 15px; }*/
+footer p { 
+	text-align: center;
+	font-size: 12px;
+}
